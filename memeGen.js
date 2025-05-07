@@ -17,17 +17,17 @@ document.addEventListener('DOMContentLoaded', function() {
     // Meme templates - replace these URLs with your actual hosted images
     const memeTemplates = [
         { name: 'Distracted Boyfriend', url: 'images/distracted-boyfriend.jpg' },
-        { name: 'Drake Hotline Bling', url: 'images/memes/drake.jpg' },
-        { name: 'Two Buttons', url: 'images/memes/two-buttons.jpg' },
-        { name: 'Change My Mind', url: 'images/memes/change-my-mind.jpg' },
-        { name: 'Expanding Brain', url: 'images/memes/expanding-brain.jpg' },
-        { name: 'Batman Slap', url: 'images/memes/batman-slap.jpg' },
-        { name: 'Woman Yelling at Cat', url: 'images/memes/woman-yelling-cat.jpg' },
-        { name: 'Surprised Pikachu', url: 'images/memes/surprised-pikachu.jpg' },
-        { name: 'Ancient Aliens Guy', url: 'images/memes/ancient-aliens.jpg' },
-        { name: 'One Does Not Simply', url: 'images/memes/one-does-not-simply.jpg' },
-        { name: 'Futurama Fry', url: 'images/memes/futurama-fry.jpg' },
-        { name: 'Success Kid', url: 'images/memes/success-kid.jpg' },
+        { name: 'Drake Hotline Bling', url: 'images/drake.jpg' },
+        { name: 'Two Buttons', url: 'images/two-buttons.jpg' },
+        { name: 'Change My Mind', url: 'images/change-my-mind.jpg' },
+        { name: 'Expanding Brain', url: 'images/expanding-brain.jpg' },
+        { name: 'Batman Slap', url: 'images/batman-slap.jpg' },
+        { name: 'Woman Yelling at Cat', url: 'images/woman-yelling-cat.jpg' },
+        { name: 'Surprised Pikachu', url: 'images/surprised-pikachu.jpg' },
+        { name: 'Ancient Aliens Guy', url: 'images/ancient-aliens.jpg' },
+        { name: 'One Does Not Simply', url: 'images/one-does-not-simply.jpg' },
+        { name: 'Futurama Fry', url: 'images/futurama-fry.jpg' },
+        { name: 'Success Kid', url: 'images/success-kid.jpg' },
     ];
     
     let selectedTemplate = null;
