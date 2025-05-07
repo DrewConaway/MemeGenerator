@@ -145,47 +145,6 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Prevent the default link behavior for now
         event.preventDefault();
-        
-        /* 
-        To implement actual download functionality, you would:
-        1. Create a canvas element
-        2. Draw the meme image
-        3. Draw the text on top
-        4. Convert to a data URL
-        5. Set the download link's href to that data URL
-        
-        Example code (not fully working without additional styling):
-        
-        const canvas = document.createElement('canvas');
-        const ctx = canvas.getContext('2d');
-        
-        // Set canvas size to match the image
-        canvas.width = memeImage.naturalWidth;
-        canvas.height = memeImage.naturalHeight;
-        
-        // Draw the image
-        ctx.drawImage(memeImage, 0, 0);
-        
-        // Draw the text
-        ctx.font = 'bold 40px Impact';
-        ctx.textAlign = 'center';
-        ctx.fillStyle = textColorPicker.value;
-        ctx.strokeStyle = textOutlinePicker.value;
-        ctx.lineWidth = 3;
-        
-        // Draw top text
-        ctx.fillText(topTextInput.value, canvas.width / 2, 50);
-        ctx.strokeText(topTextInput.value, canvas.width / 2, 50);
-        
-        // Draw bottom text
-        ctx.fillText(bottomTextInput.value, canvas.width / 2, canvas.height - 30);
-        ctx.strokeText(bottomTextInput.value, canvas.width / 2, canvas.height - 30);
-        
-        // Set the download link
-        downloadBtn.href = canvas.toDataURL('image/png');
-        */
     }
-    
-    // Initialize the app
     init();
 });
